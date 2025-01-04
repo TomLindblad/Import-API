@@ -1,0 +1,78 @@
+body{
+    background-color: #FCF6FF;
+    font-family: Oxygen;
+
+}
+
+.navBar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #B742FF;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.navlist{
+    display: flex;
+    gap: 4rem;
+    color: #8B8A8B;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul{
+    padding: 0;
+    margin: 10px;  
+}
+
+li{
+    list-style: none;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputfield{
+    width: 30rem;
+    height: 3rem;
+    border: solid 2px #B742FF;
+    border-radius: 10px;
+    padding-left: 2rem;
+    margin-top: 5rem;
+    font-size: 20px;
+}
+
+
+.cardImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+
+.searchCard{
+    margin: none;
+    max-width: 400px;
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+}
+
+.cardText{
+    padding-left: 1rem;
+}
