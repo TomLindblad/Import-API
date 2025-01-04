@@ -28,7 +28,6 @@ console.log(characters)
 		</nav>
 		
 		<div className="main-container">
-			
 			<div className="input-container"> 
 				<i class="fa-solid fa-magnifying-glass"></i>
 				<input className="inputfield"
