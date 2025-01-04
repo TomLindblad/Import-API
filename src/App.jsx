@@ -28,12 +28,16 @@ console.log(characters)
 		</nav>
 		
 		<div className="main-container">
-			<input className="inputfield"
-				type="text" 
-				placeholder="Search for character" 
-				value={search} 
-				onChange={(e) => setSearch(e.target.value)}
-			/>
+			
+			<div className="input-container"> 
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<input className="inputfield"
+					type="text" 
+					placeholder="Search for character" 
+					value={search} 
+					onChange={(e) => setSearch(e.target.value)}
+				/>
+			</div>
 			<div>
 			{characters.filter((item) => {
 				return search.toLowerCase() === "" ? "" : item.name.toLowerCase().includes(search)
